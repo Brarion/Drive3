@@ -1,0 +1,120 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
+@medifa screen and (max-width: 575px) {
+
+    .content-container .content .card {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .header .content {
+        width: 100%;
+    }
+
+    .navbar-container {
+        width: 100%;
+    }
+
+    .content-container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header .content {
+        margin: 0% 20% 0% 20%;
+        width: 60%;
+        max-width: 100px;
+    }
+
+    .navbar-container {
+        margin: 0% 20% 0% 20%;
+        width: 60%;
+        max-width: 1200px;
+    }
+
+    .content-container {
+        margin: 0% 20% 0% 20%;
+        width: 60%;
+        max-width: 1200px;
+    }
+}
+
+.header .content {
+    box-sizing: border-box;
+}
+
+/* Logo */
+
+.header .content .logo {
+    height: 50px;
+    background: red;
+    max-width: 210px;
+
+    margin: auto;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.header .content .logo a {
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+    display: inline-block
+}
+
+/* Button SignIn */
+
+.header .content button {
+    width: 100px;
+    height: 26px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    background: dimgray;
+    cursor: pointer;
+    font-family: sans-serif;
+
+    transition: border-radius 0.2s ease-in;
+
+    display: inline-block;
+
+    margin-top: 12px;
+
+    float: right;
+}
+
+.header .content button:hover {
+    background: gray;
+    border-radius: 16px;
+}
+
+/* Second header*/
+.navbar-container a {
+    font-family: sans-serif;
+    color: dimgray;
+}
+
+/*  Content */
+.content-container hr {
+    margin-top: -0%;
+    width: 100%;
+}
+
+.content-container .content .card {
+    margin-bottom: 20px;
+}
